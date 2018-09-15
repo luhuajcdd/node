@@ -1,0 +1,21 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "bundle-android": "node node_modules/react-native/local-cli/cli.js bundle --platform android --dev false --entry-file app.js  --bundle-output ../../workspace/pocket_pro_rn/host_kdzl/src/main/assets/app.bundle  --assets-dest ../../workspace/pocket_pro_rn/bussiness_modules/rn/src/main/res/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^3.17.0",
+    "eslint-plugin-react-native": "^3.2.1",
+    "react": "^16.3.1",
+    "react-native": "^0.55.4",
+    "react-native-router-flux": "^4.0.1",
+    "react-navigation": "^2.9.2"
+  }
+}
